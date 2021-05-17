@@ -1,0 +1,14 @@
+.app__header {
+  display: flex;
+  align-items: center;
+  margin: 16px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.app__yearSelector {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 4px 16px;
+  padding: 4px;
+}
