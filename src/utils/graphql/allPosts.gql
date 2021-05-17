@@ -1,0 +1,20 @@
+query allPosts($count: Int) {
+  allPosts(count: $count) {
+    id
+    title
+    body
+    createdAt
+    published
+    author {
+      id
+      firstName
+      lastName
+      avatar
+      email
+    }
+    likelyTopics {
+      label
+      likelihood
+    }
+  }
+}
