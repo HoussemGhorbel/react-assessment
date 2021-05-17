@@ -1,0 +1,31 @@
+.topTopics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topTopics__item {
+  width: calc(100% - 48px);
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.topTopics__button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 8px;
+  padding: 8px 16px;
+  color: blue;
+}
+
+.topTopics__button:focus {
+  outline: none;
+}
+
+.topTopics__button:hover {
+  background-color: #0000ff1a;
+  border-radius: 4px;
+  cursor: pointer;
+}
